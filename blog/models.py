@@ -3,8 +3,6 @@ from django.contrib.auth.models import User
 from django.urls import reverse
 from datetime import datetime, date
 
-# Create your models here.
-
 
 class Post(models.Model):
     title = models.CharField(max_length=255)
